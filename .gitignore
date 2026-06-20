@@ -1,0 +1,9 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Local preview / tooling config
+.claude/
+
+# Node (only if you add a build step later)
+node_modules/
