@@ -10,59 +10,176 @@
   <meta name="description" content="John Paul Bantillo is an Information Technology graduate (Cum Laude) and web &amp; mobile developer in Iloilo, Philippines, specializing in responsive web development, SEO optimization, and augmented reality (Unity) applications." />
   <meta name="keywords" content="John Paul Bantillo, web developer Philippines, mobile app developer, SEO specialist, augmented reality developer, Unity developer, freelance web developer Iloilo, IT graduate, front-end developer" />
   <meta name="author" content="John Paul Bantillo" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
   <meta name="theme-color" content="#0a0e17" />
+  <meta name="rating" content="general" />
+  <meta name="format-detection" content="telephone=no" />
   <link rel="canonical" href="https://variable27.github.io/jpPortfolio/" />
+  <link rel="alternate" hreflang="en" href="https://variable27.github.io/jpPortfolio/" />
+  <link rel="alternate" hreflang="x-default" href="https://variable27.github.io/jpPortfolio/" />
+
+  <!-- Geo / local SEO -->
+  <meta name="geo.region" content="PH-ILO" />
+  <meta name="geo.placename" content="Carles, Iloilo, Philippines" />
+  <meta name="geo.position" content="11.5650;123.1430" />
+  <meta name="ICBM" content="11.5650, 123.1430" />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="profile" />
+  <meta property="profile:first_name" content="John Paul" />
+  <meta property="profile:last_name" content="Bantillo" />
+  <meta property="profile:gender" content="male" />
   <meta property="og:site_name" content="John Paul Bantillo" />
-  <meta property="og:title" content="John Paul Bantillo — Web &amp; Mobile Developer" />
-  <meta property="og:description" content="IT graduate (Cum Laude) building responsive web apps, SEO-driven sites, and interactive AR experiences." />
+  <meta property="og:title" content="John Paul Bantillo — Web &amp; Mobile Developer | SEO &amp; AR Specialist" />
+  <meta property="og:description" content="IT graduate (Cum Laude) in Iloilo, Philippines, building responsive web apps, SEO-driven sites, and interactive AR experiences. Available worldwide for remote freelance work." />
   <meta property="og:url" content="https://variable27.github.io/jpPortfolio/" />
   <meta property="og:image" content="https://variable27.github.io/jpPortfolio/assets/og-image.png" />
+  <meta property="og:image:secure_url" content="https://variable27.github.io/jpPortfolio/assets/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="John Paul Bantillo — Web &amp; Mobile Developer, SEO &amp; AR Specialist" />
   <meta property="og:locale" content="en_US" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="John Paul Bantillo — Web &amp; Mobile Developer" />
-  <meta name="twitter:description" content="IT graduate (Cum Laude) building responsive web apps, SEO-driven sites, and interactive AR experiences." />
+  <meta name="twitter:title" content="John Paul Bantillo — Web &amp; Mobile Developer | SEO &amp; AR Specialist" />
+  <meta name="twitter:description" content="IT graduate (Cum Laude) building responsive web apps, SEO-driven sites, and interactive AR experiences. Available worldwide for remote freelance work." />
   <meta name="twitter:image" content="https://variable27.github.io/jpPortfolio/assets/og-image.png" />
+  <meta name="twitter:image:alt" content="John Paul Bantillo — Web &amp; Mobile Developer" />
 
   <!-- Icons -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2338e1c4'/%3E%3Ctext x='50' y='68' font-family='Arial' font-size='52' font-weight='bold' text-anchor='middle' fill='%2306121a'%3EJP%3C/text%3E%3C/svg%3E" />
 
-  <!-- Fonts -->
+  <!-- Fonts (non-blocking load for faster First Contentful Paint) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="manifest" href="site.webmanifest" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
-  <!-- Structured data: Person -->
+  <!-- Critical CSS preload + manifest -->
+  <link rel="preload" as="style" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!--
+    Structured data graph. sameAs links are the strongest signal for Google to
+    build an entity / knowledge result for "John Paul Bantillo". GitHub is filled
+    in. Add your real LinkedIn / Facebook / X / Instagram / Upwork / Fiverr URLs
+    to the "sameAs" array below to maximize the rich snippet.
+  -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "John Paul Bantillo",
-    "givenName": "John Paul",
-    "familyName": "Bantillo",
-    "jobTitle": "Web & Mobile Developer",
-    "email": "mailto:jpbantillo27@gmail.com",
-    "telephone": "+639543811997",
-    "url": "https://variable27.github.io/jpPortfolio/",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Carles, Iloilo",
-      "addressRegion": "Western Visayas",
-      "addressCountry": "PH"
-    },
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Northern Iloilo State University"
-    },
-    "knowsAbout": ["Web Development", "Mobile Application Development", "SEO", "Augmented Reality", "Unity", "JavaScript", "PHP", "C#", "Java"],
-    "description": "Information Technology graduate (Cum Laude) specializing in web and mobile application development, SEO, and augmented reality."
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://variable27.github.io/jpPortfolio/#website",
+        "url": "https://variable27.github.io/jpPortfolio/",
+        "name": "John Paul Bantillo — Web & Mobile Developer",
+        "description": "Portfolio of John Paul Bantillo, web & mobile developer, SEO specialist, and AR developer available worldwide.",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://variable27.github.io/jpPortfolio/#person" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://variable27.github.io/jpPortfolio/#webpage",
+        "url": "https://variable27.github.io/jpPortfolio/",
+        "name": "John Paul Bantillo — Web & Mobile Developer | SEO & AR Specialist",
+        "isPartOf": { "@id": "https://variable27.github.io/jpPortfolio/#website" },
+        "about": { "@id": "https://variable27.github.io/jpPortfolio/#person" },
+        "mainEntity": { "@id": "https://variable27.github.io/jpPortfolio/#person" },
+        "inLanguage": "en",
+        "primaryImageOfPage": "https://variable27.github.io/jpPortfolio/assets/og-image.png"
+      },
+      {
+        "@type": ["Person", "ProfessionalService"],
+        "@id": "https://variable27.github.io/jpPortfolio/#person",
+        "name": "John Paul Bantillo",
+        "givenName": "John Paul",
+        "familyName": "Bantillo",
+        "additionalName": "JP",
+        "jobTitle": "Web & Mobile Developer",
+        "description": "Information Technology graduate (Cum Laude) specializing in responsive web development, mobile applications, SEO optimization, and augmented reality (Unity). Available worldwide for remote freelance projects.",
+        "image": "https://variable27.github.io/jpPortfolio/assets/og-image.png",
+        "email": "mailto:jpbantillo27@gmail.com",
+        "telephone": "+639543811997",
+        "url": "https://variable27.github.io/jpPortfolio/",
+        "gender": "Male",
+        "nationality": { "@type": "Country", "name": "Philippines" },
+        "knowsLanguage": ["en", "fil"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Carles",
+          "addressRegion": "Iloilo, Western Visayas",
+          "addressCountry": "PH"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Northern Iloilo State University"
+        },
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Web & Mobile Developer",
+          "occupationLocation": { "@type": "Country", "name": "Philippines" },
+          "skills": "Web Development, Mobile App Development, SEO, Augmented Reality, Unity, JavaScript, PHP, C#, Java"
+        },
+        "knowsAbout": ["Web Development", "Mobile Application Development", "Search Engine Optimization", "Augmented Reality", "Unity", "JavaScript", "PHP", "C#", "Java", "HTML", "CSS", "Responsive Design"],
+        "areaServed": "Worldwide",
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Responsive Web Development", "description": "Fast, mobile-friendly, SEO-ready websites." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO Optimization", "description": "On-page, technical, and content SEO to grow organic traffic." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile & AR Development", "description": "Mobile apps and interactive augmented reality experiences in Unity." } }
+        ],
+        "sameAs": [
+          "https://github.com/Variable27"
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://variable27.github.io/jpPortfolio/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://variable27.github.io/jpPortfolio/#home" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://variable27.github.io/jpPortfolio/#about" },
+          { "@type": "ListItem", "position": 3, "name": "Services", "item": "https://variable27.github.io/jpPortfolio/#services" },
+          { "@type": "ListItem", "position": 4, "name": "Projects", "item": "https://variable27.github.io/jpPortfolio/#projects" },
+          { "@type": "ListItem", "position": 5, "name": "Contact", "item": "https://variable27.github.io/jpPortfolio/#contact" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://variable27.github.io/jpPortfolio/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is John Paul Bantillo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "John Paul Bantillo is an Information Technology graduate (Cum Laude) and web & mobile developer based in Iloilo, Philippines. He specializes in responsive web development, SEO optimization, and augmented reality (Unity) applications, and works with clients worldwide." }
+          },
+          {
+            "@type": "Question",
+            "name": "What services does John Paul Bantillo offer?",
+            "acceptedAnswer": { "@type": "Answer", "text": "He offers responsive web development, SEO optimization, mobile application development, and interactive augmented reality (AR) experiences built in Unity." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does John Paul Bantillo work with international clients?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. John Paul works remotely with clients worldwide and is comfortable collaborating across time zones in English. He is available for both short-term freelance projects and long-term engagements." }
+          },
+          {
+            "@type": "Question",
+            "name": "What technologies does John Paul Bantillo specialize in?",
+            "acceptedAnswer": { "@type": "Answer", "text": "JavaScript, PHP, C#, Java, HTML, and CSS, plus Unity for augmented reality. He also handles SEO, analytics, and responsive front-end design." }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I hire John Paul Bantillo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "You can reach John Paul by email at jpbantillo27@gmail.com or through the contact section of this portfolio to discuss your web, SEO, or AR project." }
+          }
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -83,9 +200,10 @@
       </a>
       <nav class="nav-links" id="navLinks" aria-label="Primary">
         <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
+        <a href="#faq">FAQ</a>
         <a href="#contact" class="nav-cta">Contact</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
@@ -99,7 +217,7 @@
     <section class="hero" id="home" aria-label="Introduction">
       <div class="container hero-inner">
         <div class="hero-content reveal">
-          <p class="eyebrow"><span class="dot"></span> Available for opportunities</p>
+          <p class="eyebrow"><span class="dot"></span> Available worldwide · Remote freelance</p>
           <h1 class="hero-title">
             John Paul <span class="grad grad-anim">Bantillo</span>
           </h1>
@@ -214,11 +332,46 @@
       </div>
     </section>
 
+    <!-- Services -->
+    <section class="section" id="services" aria-label="Services for clients worldwide">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">02 — Services</span>
+          <h2 class="section-title">How I help clients worldwide</h2>
+          <p class="section-sub">Remote-friendly and available across time zones — from one-off projects to long-term collaboration.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-ico">🌐</div>
+            <h3>Responsive Web Development</h3>
+            <p>Fast, mobile-first websites and web apps built with clean, maintainable code — optimized for speed and conversions on every device.</p>
+            <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li></ul>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico">📈</div>
+            <h3>SEO Optimization</h3>
+            <p>On-page, technical, and content SEO that grows organic traffic and search visibility — including structured data and Core Web Vitals.</p>
+            <ul class="chips"><li>On-Page SEO</li><li>Technical SEO</li><li>Analytics</li></ul>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-ico">📱</div>
+            <h3>Mobile &amp; AR Development</h3>
+            <p>Interactive mobile and augmented reality experiences in Unity — turning ideas into engaging, hands-on products users remember.</p>
+            <ul class="chips"><li>Unity</li><li>C#</li><li>Augmented Reality</li></ul>
+          </article>
+        </div>
+        <div class="services-cta reveal">
+          <span class="services-cta-text">Have a project in mind? I reply within 24 hours.</span>
+          <a href="#contact" class="btn btn-primary">Start a Project</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Skills -->
     <section class="section section-alt" id="skills" aria-label="Skills">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">02 — Skills</span>
+          <span class="section-tag">03 — Skills</span>
           <h2 class="section-title">A toolkit for building real products</h2>
         </div>
         <div class="skills-grid">
@@ -281,7 +434,7 @@
     <section class="section" id="projects" aria-label="Projects">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">03 — Projects</span>
+          <span class="section-tag">04 — Projects</span>
           <h2 class="section-title">Selected work</h2>
         </div>
         <div class="projects-grid">
@@ -342,7 +495,7 @@
     <section class="section section-alt" id="experience" aria-label="Experience">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">04 — Experience</span>
+          <span class="section-tag">05 — Experience</span>
           <h2 class="section-title">Where I've made an impact</h2>
         </div>
         <div class="timeline">
@@ -392,12 +545,44 @@
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-label="Frequently asked questions">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">06 — FAQ</span>
+          <h2 class="section-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>Who is John Paul Bantillo?</summary>
+            <p>John Paul Bantillo is an Information Technology graduate (Cum Laude) and web &amp; mobile developer based in Iloilo, Philippines. He specializes in responsive web development, SEO optimization, and augmented reality (Unity) applications, and works with clients worldwide.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What services does John Paul offer?</summary>
+            <p>Responsive web development, SEO optimization, mobile application development, and interactive augmented reality (AR) experiences built in Unity.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you work with international clients?</summary>
+            <p>Yes. I work remotely with clients worldwide and collaborate comfortably across time zones in English — for both short-term freelance projects and long-term engagements.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What technologies do you specialize in?</summary>
+            <p>JavaScript, PHP, C#, Java, HTML, and CSS, plus Unity for augmented reality. I also handle SEO, analytics, and responsive front-end design.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How can I hire you?</summary>
+            <p>Reach me by email at <a href="mailto:jpbantillo27@gmail.com">jpbantillo27@gmail.com</a> or through the contact section below to discuss your web, SEO, or AR project. I reply within 24 hours.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
-    <section class="section" id="contact" aria-label="Contact">
+    <section class="section section-alt" id="contact" aria-label="Contact">
       <div class="container">
         <div class="contact-card reveal">
           <div class="contact-head">
-            <span class="section-tag">05 — Contact</span>
+            <span class="section-tag">07 — Contact</span>
             <h2 class="section-title">Let's build something great</h2>
             <p class="contact-sub">
               Have a project, role, or idea in mind? I'm currently open to opportunities
