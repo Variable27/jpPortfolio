@@ -1,9 +1,10 @@
 # John Paul Bantillo — Portfolio
 
 A modern, responsive, SEO-optimized personal portfolio for **John Paul Bantillo**,
-Information Technology graduate (Cum Laude) and Web &amp; Mobile Developer.
+Information Technology graduate (Cum Laude) — Web &amp; Mobile Developer, SEO Specialist,
+and Virtual Assistant.
 
-🔗 **Live site:** https://variable27.github.io/jpPortfolio/
+🔗 **Live site:** https://johnpaulbantillo.site/
 
 ## Features
 - Modern dark UI with animated gradient, typing effect, cursor spotlight, and skills marquee
@@ -48,6 +49,16 @@ Open `index.html` directly in a browser, or serve it:
 npx serve .
 ```
 
-## Notes
-Update the domain in `index.html` (canonical / Open Graph), `robots.txt`, and
-`sitemap.xml` if you move the site to a custom domain.
+## Custom domain & HTTPS
+The site is served from the custom domain **johnpaulbantillo.site** (configured via
+the `CNAME` file). All canonical / Open Graph / structured-data URLs, `robots.txt`,
+and `sitemap.xml` point to `https://johnpaulbantillo.site/`.
+
+To serve over HTTPS, in **GitHub → repo Settings → Pages**:
+1. Confirm the custom domain shows `johnpaulbantillo.site` with a green check (DNS verified).
+2. Wait for GitHub to provision the TLS certificate (can take up to 24h after DNS resolves).
+3. Tick **Enforce HTTPS**.
+
+DNS at your registrar should have four `A` records for the apex domain pointing to
+`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (and/or a
+`CNAME` `www → variable27.github.io`).

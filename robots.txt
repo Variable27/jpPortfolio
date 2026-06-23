@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://variable27.github.io/jpPortfolio/sitemap.xml
+Sitemap: https://johnpaulbantillo.site/sitemap.xml

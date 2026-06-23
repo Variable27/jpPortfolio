@@ -51,7 +51,7 @@
   // Typing effect for the role line
   const typed = document.getElementById('typed');
   if (typed && !reduceMotion) {
-    const roles = ['Web & Mobile Developer', 'SEO Specialist', 'AR / Unity Developer', 'Front-End Engineer'];
+    const roles = ['Web & Mobile Developer', 'SEO Specialist', 'AR / Unity Developer', 'Virtual Assistant', 'Customer Support Pro'];
     let r = 0, i = 0, deleting = false;
     const tick = () => {
       const word = roles[r];

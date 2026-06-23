@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://variable27.github.io/jpPortfolio/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <loc>https://johnpaulbantillo.site/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://variable27.github.io/jpPortfolio/assets/og-image.png</image:loc>
-      <image:title>John Paul Bantillo — Web &amp; Mobile Developer, SEO &amp; AR Specialist</image:title>
+      <image:loc>https://johnpaulbantillo.site/assets/og-image.png</image:loc>
+      <image:title>John Paul Bantillo — Web Developer, SEO &amp; Virtual Assistant</image:title>
     </image:image>
   </url>
 </urlset>
