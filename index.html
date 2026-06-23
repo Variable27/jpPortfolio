@@ -55,9 +55,9 @@
   <!-- Fonts (non-blocking load for faster First Contentful Paint) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
   <!-- Critical CSS preload + manifest -->
   <link rel="preload" as="style" href="styles.css" />
@@ -111,6 +111,14 @@
         "email": "mailto:jpbantillo27@gmail.com",
         "telephone": "+639543811997",
         "url": "https://johnpaulbantillo.site/",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Sales",
+          "email": "jpbantillo27@gmail.com",
+          "telephone": "+639543811997",
+          "availableLanguage": ["English", "Filipino"],
+          "areaServed": "Worldwide"
+        },
         "gender": "Male",
         "nationality": { "@type": "Country", "name": "Philippines" },
         "knowsLanguage": ["en", "fil"],
@@ -123,6 +131,13 @@
         "alumniOf": {
           "@type": "CollegeOrUniversity",
           "name": "Northern Iloilo State University"
+        },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "educationalLevel": "Bachelor's Degree (Cum Laude)",
+          "name": "B.S. Information Technology — Web & Mobile Application Development",
+          "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Northern Iloilo State University" }
         },
         "hasOccupation": {
           "@type": "Occupation",
@@ -696,6 +711,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
