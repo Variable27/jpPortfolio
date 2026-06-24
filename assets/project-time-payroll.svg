@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Employee Time Tracking and Payroll preview</title>
+  <desc id="desc">Payroll dashboard mockup with timesheets, billable hours, overtime, and payroll summary.</desc>
+  <rect width="960" height="540" rx="28" fill="#eef4f8"/>
+  <rect x="52" y="46" width="856" height="448" rx="24" fill="#ffffff" stroke="#dbe5ee"/>
+  <text x="84" y="96" fill="#111827" font-family="Arial, sans-serif" font-size="28" font-weight="800">Employee Time Tracking &amp; Payroll</text>
+  <text x="84" y="121" fill="#64748b" font-family="Arial, sans-serif" font-size="15">Attendance, overtime, billable hours, and payroll exports</text>
+  <rect x="84" y="158" width="176" height="90" rx="16" fill="#effaf6" stroke="#b7ebd3"/>
+  <text x="108" y="191" fill="#557a68" font-family="Arial, sans-serif" font-size="15" font-weight="700">Hours Logged</text>
+  <text x="108" y="225" fill="#087a4d" font-family="Arial, sans-serif" font-size="30" font-weight="800">477</text>
+  <rect x="284" y="158" width="176" height="90" rx="16" fill="#fff8e8" stroke="#f0d99a"/>
+  <text x="308" y="191" fill="#8b6d2f" font-family="Arial, sans-serif" font-size="15" font-weight="700">Overtime</text>
+  <text x="308" y="225" fill="#9a5b00" font-family="Arial, sans-serif" font-size="30" font-weight="800">15 hrs</text>
+  <rect x="484" y="158" width="176" height="90" rx="16" fill="#eef4ff" stroke="#c7d8ff"/>
+  <text x="508" y="191" fill="#526a9b" font-family="Arial, sans-serif" font-size="15" font-weight="700">Billable Hours</text>
+  <text x="508" y="225" fill="#305fce" font-family="Arial, sans-serif" font-size="30" font-weight="800">404</text>
+  <rect x="684" y="158" width="176" height="90" rx="16" fill="#f7efff" stroke="#dfc4ff"/>
+  <text x="708" y="191" fill="#74529d" font-family="Arial, sans-serif" font-size="15" font-weight="700">Payroll Total</text>
+  <text x="708" y="225" fill="#6d28d9" font-family="Arial, sans-serif" font-size="30" font-weight="800">$8.4K</text>
+  <rect x="84" y="286" width="522" height="156" rx="18" fill="#f8fafc" stroke="#dbe5ee"/>
+  <text x="112" y="322" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Weekly Timesheets</text>
+  <g fill="#d9e3ee">
+    <rect x="112" y="348" width="438" height="12" rx="6"/>
+    <rect x="112" y="378" width="390" height="12" rx="6"/>
+    <rect x="112" y="408" width="462" height="12" rx="6"/>
+  </g>
+  <g fill="#38e1c4">
+    <rect x="112" y="348" width="118" height="12" rx="6"/>
+    <rect x="112" y="378" width="238" height="12" rx="6"/>
+    <rect x="112" y="408" width="176" height="12" rx="6"/>
+  </g>
+  <rect x="638" y="286" width="222" height="156" rx="18" fill="#111827"/>
+  <text x="666" y="324" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="800">Payroll Export</text>
+  <rect x="666" y="352" width="142" height="16" rx="8" fill="#263244"/>
+  <rect x="666" y="382" width="164" height="16" rx="8" fill="#263244"/>
+  <rect x="666" y="414" width="112" height="22" rx="11" fill="#38e1c4"/>
+</svg>

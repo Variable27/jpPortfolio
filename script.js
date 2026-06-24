@@ -5,7 +5,8 @@
   'use strict';
 
   // Current year in footer
-  document.getElementById('year').textContent = new Date().getFullYear();
+  const year = document.getElementById('year');
+  if (year) year.textContent = new Date().getFullYear();
 
   // Navbar background on scroll
   const nav = document.getElementById('nav');
@@ -16,18 +17,20 @@
   // Mobile menu
   const toggle = document.getElementById('navToggle');
   const links = document.getElementById('navLinks');
-  toggle.addEventListener('click', () => {
-    const open = links.classList.toggle('open');
-    toggle.classList.toggle('open', open);
-    toggle.setAttribute('aria-expanded', String(open));
-  });
-  links.querySelectorAll('a').forEach((a) =>
-    a.addEventListener('click', () => {
-      links.classList.remove('open');
-      toggle.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
-    })
-  );
+  if (toggle && links) {
+    toggle.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    links.querySelectorAll('a').forEach((a) =>
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      })
+    );
+  }
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -51,7 +54,7 @@
   // Typing effect for the role line
   const typed = document.getElementById('typed');
   if (typed && !reduceMotion) {
-    const roles = ['Web & Mobile Developer', 'SEO Specialist', 'AR / Unity Developer', 'Virtual Assistant', 'Customer Support Pro'];
+    const roles = ['Web Developer', 'AI Tools Builder', 'SEO Specialist', 'Business Systems Developer', 'Automation-Focused VA'];
     let r = 0, i = 0, deleting = false;
     const tick = () => {
       const word = roles[r];
@@ -125,19 +128,31 @@
 
   // Active nav link highlighting
   const sections = document.querySelectorAll('section[id]');
-  const navAnchors = links.querySelectorAll('a');
-  const spyIO = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const id = entry.target.id;
-          navAnchors.forEach((a) =>
-            a.classList.toggle('active', a.getAttribute('href') === '#' + id)
-          );
-        }
-      });
-    },
-    { threshold: 0.5 }
-  );
-  sections.forEach((s) => spyIO.observe(s));
+  const navAnchors = links ? links.querySelectorAll('a') : [];
+  navAnchors.forEach((a) => {
+    const target = new URL(a.getAttribute('href'), window.location.href);
+    const isCurrentPage =
+      target.pathname === window.location.pathname ||
+      (target.pathname.endsWith('/index.html') && window.location.pathname.endsWith('/'));
+    a.classList.toggle('current', isCurrentPage && !target.hash);
+  });
+
+  if (sections.length && navAnchors.length) {
+    const spyIO = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navAnchors.forEach((a) => {
+              const target = new URL(a.getAttribute('href'), window.location.href);
+              const samePage = target.pathname === window.location.pathname;
+              a.classList.toggle('active', samePage && target.hash === '#' + id);
+            });
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+    sections.forEach((s) => spyIO.observe(s));
+  }
 })();

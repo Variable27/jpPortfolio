@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">AI Powered Dashboard preview</title>
+  <desc id="desc">Business dashboard mockup with metrics, charts, upload panel, and AI insights.</desc>
+  <rect width="960" height="540" rx="28" fill="#f5f7fb"/>
+  <rect x="44" y="40" width="872" height="74" rx="18" fill="#111827"/>
+  <rect x="74" y="64" width="32" height="32" rx="8" fill="#38e1c4"/>
+  <text x="122" y="84" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">InsightFlow AI</text>
+  <text x="122" y="103" fill="#9fb0ce" font-family="Arial, sans-serif" font-size="13">Spreadsheet intelligence for performance teams</text>
+  <rect x="728" y="59" width="144" height="38" rx="10" fill="#38e1c4"/>
+  <text x="756" y="84" fill="#06121a" font-family="Arial, sans-serif" font-size="15" font-weight="700">Generate</text>
+  <g>
+    <rect x="58" y="148" width="188" height="82" rx="14" fill="#eaf6ff" stroke="#b7ddf7"/>
+    <text x="78" y="178" fill="#557799" font-family="Arial, sans-serif" font-size="15" font-weight="700">Rows Analyzed</text>
+    <text x="78" y="210" fill="#0b5f8a" font-family="Arial, sans-serif" font-size="28" font-weight="800">24,860</text>
+    <rect x="270" y="148" width="188" height="82" rx="14" fill="#e9fbf2" stroke="#a2ecc7"/>
+    <text x="290" y="178" fill="#5d8974" font-family="Arial, sans-serif" font-size="15" font-weight="700">Revenue</text>
+    <text x="290" y="210" fill="#087a4d" font-family="Arial, sans-serif" font-size="28" font-weight="800">$957.8K</text>
+    <rect x="482" y="148" width="188" height="82" rx="14" fill="#fff8df" stroke="#f4d466"/>
+    <text x="502" y="178" fill="#9a6f25" font-family="Arial, sans-serif" font-size="15" font-weight="700">Orders</text>
+    <text x="502" y="210" fill="#8b470b" font-family="Arial, sans-serif" font-size="28" font-weight="800">2,939</text>
+    <rect x="694" y="148" width="208" height="82" rx="14" fill="#fff0f3" stroke="#f2b7c5"/>
+    <text x="714" y="178" fill="#b44a68" font-family="Arial, sans-serif" font-size="15" font-weight="700">Detected Dataset</text>
+    <text x="714" y="210" fill="#9b123c" font-family="Arial, sans-serif" font-size="28" font-weight="800">Sales</text>
+  </g>
+  <rect x="58" y="260" width="284" height="218" rx="16" fill="#ffffff" stroke="#dbe4ef"/>
+  <path d="M200 344v58M172 374l28-30 28 30" stroke="#0b78b6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="138" y="425" fill="#121827" font-family="Arial, sans-serif" font-size="21" font-weight="800">Upload CSV</text>
+  <text x="118" y="451" fill="#5f6f86" font-family="Arial, sans-serif" font-size="14">Sales, SEO, time, and analytics</text>
+  <rect x="374" y="260" width="528" height="100" rx="16" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="404" y="299" fill="#121827" font-family="Arial, sans-serif" font-size="21" font-weight="800">AI Insights</text>
+  <rect x="404" y="318" width="430" height="18" rx="9" fill="#e8eef6"/>
+  <rect x="404" y="342" width="350" height="10" rx="5" fill="#eef3f8"/>
+  <rect x="374" y="386" width="250" height="92" rx="16" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="398" y="418" fill="#121827" font-family="Arial, sans-serif" font-size="17" font-weight="700">Revenue by Month</text>
+  <rect x="408" y="454" width="20" height="10" rx="5" fill="#137a9c"/>
+  <rect x="438" y="438" width="20" height="26" rx="5" fill="#137a9c"/>
+  <rect x="468" y="424" width="20" height="40" rx="5" fill="#137a9c"/>
+  <rect x="498" y="407" width="20" height="57" rx="5" fill="#137a9c"/>
+  <rect x="528" y="390" width="20" height="74" rx="5" fill="#137a9c"/>
+  <rect x="652" y="386" width="250" height="92" rx="16" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="676" y="418" fill="#121827" font-family="Arial, sans-serif" font-size="17" font-weight="700">Orders Mix</text>
+  <path d="M686 456c48-38 84-4 120-26 23-14 41-26 68-23" stroke="#38a36b" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

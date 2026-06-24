@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Client Portal System preview</title>
+  <desc id="desc">Client portal mockup with project status, tickets, invoices, files, and messages.</desc>
+  <rect width="960" height="540" rx="28" fill="#101827"/>
+  <rect x="50" y="46" width="860" height="448" rx="24" fill="#121d2e" stroke="#27364a"/>
+  <rect x="50" y="46" width="188" height="448" rx="24" fill="#0b1220"/>
+  <text x="82" y="94" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="800">ClientHub</text>
+  <rect x="82" y="134" width="110" height="12" rx="6" fill="#38e1c4"/>
+  <rect x="82" y="174" width="126" height="12" rx="6" fill="#334155"/>
+  <rect x="82" y="214" width="92" height="12" rx="6" fill="#334155"/>
+  <rect x="82" y="254" width="118" height="12" rx="6" fill="#334155"/>
+  <rect x="278" y="82" width="574" height="74" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="306" y="118" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="800">Website Redesign Project</text>
+  <text x="306" y="141" fill="#93a1bd" font-family="Arial, sans-serif" font-size="14">Client portal for updates, files, invoices, and requests</text>
+  <rect x="278" y="190" width="174" height="118" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="306" y="226" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Project Status</text>
+  <circle cx="364" cy="265" r="28" fill="#38e1c4"/>
+  <text x="348" y="273" fill="#06121a" font-family="Arial, sans-serif" font-size="20" font-weight="800">72%</text>
+  <rect x="478" y="190" width="174" height="118" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="506" y="226" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Tickets</text>
+  <text x="506" y="274" fill="#6c8cff" font-family="Arial, sans-serif" font-size="38" font-weight="800">8</text>
+  <rect x="678" y="190" width="174" height="118" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="706" y="226" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Invoices</text>
+  <text x="706" y="274" fill="#b06cff" font-family="Arial, sans-serif" font-size="38" font-weight="800">3</text>
+  <rect x="278" y="340" width="270" height="102" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="306" y="374" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Recent Files</text>
+  <rect x="306" y="398" width="188" height="12" rx="6" fill="#334155"/>
+  <rect x="306" y="420" width="142" height="12" rx="6" fill="#334155"/>
+  <rect x="582" y="340" width="270" height="102" rx="18" fill="#172338" stroke="#2c3a50"/>
+  <text x="610" y="374" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Messages</text>
+  <rect x="610" y="398" width="188" height="12" rx="6" fill="#334155"/>
+  <rect x="610" y="420" width="116" height="12" rx="6" fill="#38e1c4"/>
+</svg>
