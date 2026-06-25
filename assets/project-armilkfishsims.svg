@@ -1,27 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
-  <title id="title">ARMilkfishSIMS preview</title>
-  <desc id="desc">Professional portfolio mockup using demo data only.</desc>
-  <rect width="960" height="540" rx="28" fill="#f3f6fb"/>
-  <rect x="0" y="0" width="960" height="92" rx="28" fill="#0b1f3a"/>
-  <rect x="0" y="68" width="960" height="24" fill="#0b1f3a"/>
-  <text x="42" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">ARMilkfishSIMS</text>
-  <text x="42" y="70" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="14">Augmented reality training system for milkfish deboning</text>
-  <text x="628" y="55" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="13">Source: Capstone demo scenario | Training sample data</text>
-  <rect x="796" y="24" width="116" height="34" rx="17" fill="#ffffff" opacity="0.12"/>
-  <text x="820" y="46" fill="#e8eef8" font-family="Arial, sans-serif" font-size="12" font-weight="700">DEMO DATA</text>
-  <g><rect x="42" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="42" y="120" width="160" height="10" rx="5" fill="#2563eb"/><text x="60" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Modules</text><text x="60" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">6</text><text x="60" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">training steps</text></g>
-  <g><rect x="222" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="222" y="120" width="160" height="10" rx="5" fill="#22c55e"/><text x="240" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Accuracy</text><text x="240" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">94%</text><text x="240" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">demo score</text></g>
-  <g><rect x="402" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="402" y="120" width="160" height="10" rx="5" fill="#14b8a6"/><text x="420" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Learners</text><text x="420" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">28</text><text x="420" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">sample class</text></g>
-  <g><rect x="582" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="582" y="120" width="160" height="10" rx="5" fill="#7c3aed"/><text x="600" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Session</text><text x="600" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">12 min</text><text x="600" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">mock average</text></g>
-  <g><rect x="762" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="762" y="120" width="160" height="10" rx="5" fill="#f59e0b"/><text x="780" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Mode</text><text x="780" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">AR</text><text x="780" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">guided practice</text></g>
-  <rect x="42" y="232" width="390" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
-  <text x="70" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">AR Training Flow</text>
-  <rect x="80" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#a5f3fc"/><text x="98" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Scan</text><path d="M160 314h34" stroke="#94a3b8" stroke-width="4"/><rect x="202" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#67e8f9"/><text x="218" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Guide</text><path d="M282 314h34" stroke="#94a3b8" stroke-width="4"/><rect x="324" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#22d3ee"/><text x="338" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Check</text>
-  <rect x="462" y="232" width="456" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
-  <text x="490" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Learner Progress</text>
-  <rect x="500" y="328" width="20" height="38" rx="6" fill="#06b6d4"/><rect x="534" y="310" width="20" height="56" rx="6" fill="#06b6d4"/><rect x="568" y="292" width="20" height="74" rx="6" fill="#06b6d4"/><rect x="602" y="298" width="20" height="68" rx="6" fill="#06b6d4"/><rect x="636" y="284" width="20" height="82" rx="6" fill="#06b6d4"/><rect x="670" y="276" width="20" height="90" rx="6" fill="#06b6d4"/><rect x="736" y="292" width="118" height="48" rx="14" fill="#ecfeff"/><text x="762" y="313" fill="#0e7490" font-family="Arial" font-size="12" font-weight="700">Demo Lab</text><text x="756" y="333" fill="#155e75" font-family="Arial" font-size="18" font-weight="800">94%</text>
-  <rect x="42" y="408" width="876" height="86" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
-  <text x="70" y="442" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Key findings</text>
-  <circle cx="76" cy="466" r="4" fill="#06b6d4"/><text x="92" y="471" fill="#182235" font-family="Arial, sans-serif" font-size="13">The visual uses sample learner progress, not real class records.</text>
-  <circle cx="76" cy="486" r="4" fill="#06b6d4"/><text x="92" y="491" fill="#182235" font-family="Arial, sans-serif" font-size="13">Shows the project as a polished training system, not just a school output.</text>
+  <title id="title">ARMilkfishSIMS project preview</title>
+  <desc id="desc">Photo-based portfolio preview for the ARMilkfishSIMS augmented reality milkfish deboning training system.</desc>
+  <defs>
+    <clipPath id="heroClip"><rect x="42" y="126" width="530" height="298" rx="22"/></clipPath>
+    <clipPath id="unityClip"><rect x="604" y="126" width="314" height="136" rx="18"/></clipPath>
+    <clipPath id="mayaClip"><rect x="604" y="288" width="314" height="136" rx="18"/></clipPath>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#061a33"/>
+      <stop offset="1" stop-color="#0f2e4f"/>
+    </linearGradient>
+    <linearGradient id="photoShade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#06121f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#06121f" stop-opacity=".72"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="540" rx="28" fill="#eef3f9"/>
+  <rect x="0" y="0" width="960" height="98" rx="28" fill="url(#header)"/>
+  <rect x="0" y="70" width="960" height="28" fill="#0f2e4f"/>
+  <text x="42" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="31" font-weight="800">ARMilkfishSIMS</text>
+  <text x="42" y="70" fill="#c7d8ea" font-family="Arial, sans-serif" font-size="14">Augmented reality training system for milkfish deboning</text>
+  <rect x="780" y="24" width="132" height="34" rx="17" fill="#ffffff" opacity=".13"/>
+  <text x="807" y="46" fill="#e8f3ff" font-family="Arial, sans-serif" font-size="12" font-weight="700">CAPSTONE DEMO</text>
+  <text x="618" y="72" fill="#c7d8ea" font-family="Arial, sans-serif" font-size="12">Photos: AR prototype, Unity build, 3D fish model</text>
+
+  <rect x="42" y="126" width="530" height="298" rx="22" fill="#ffffff" stroke="#d6e1ed"/>
+  <image href="armilkfish-ar-phone.jpg" x="42" y="126" width="530" height="298" preserveAspectRatio="xMidYMid slice" clip-path="url(#heroClip)"/>
+  <rect x="42" y="126" width="530" height="298" rx="22" fill="url(#photoShade)"/>
+  <rect x="66" y="150" width="116" height="30" rx="15" fill="#06b6d4" opacity=".95"/>
+  <text x="86" y="170" fill="#06212b" font-family="Arial, sans-serif" font-size="12" font-weight="800">AR PHONE VIEW</text>
+  <text x="70" y="370" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="800">Interactive fish model overlay</text>
+  <text x="70" y="398" fill="#d9ebf8" font-family="Arial, sans-serif" font-size="14">Real prototype photo used for portfolio presentation</text>
+
+  <rect x="604" y="126" width="314" height="136" rx="18" fill="#ffffff" stroke="#d6e1ed"/>
+  <image href="armilkfish-unity-menu.jpg" x="604" y="126" width="314" height="136" preserveAspectRatio="xMidYMid slice" clip-path="url(#unityClip)"/>
+  <rect x="604" y="126" width="314" height="136" rx="18" fill="#06121f" opacity=".24"/>
+  <rect x="622" y="144" width="92" height="26" rx="13" fill="#ffffff" opacity=".88"/>
+  <text x="642" y="162" fill="#0f2e4f" font-family="Arial, sans-serif" font-size="12" font-weight="800">UNITY UI</text>
+
+  <rect x="604" y="288" width="314" height="136" rx="18" fill="#ffffff" stroke="#d6e1ed"/>
+  <image href="armilkfish-maya-model.jpg" x="604" y="288" width="314" height="136" preserveAspectRatio="xMidYMid slice" clip-path="url(#mayaClip)"/>
+  <rect x="604" y="288" width="314" height="136" rx="18" fill="#06121f" opacity=".22"/>
+  <rect x="622" y="306" width="112" height="26" rx="13" fill="#ffffff" opacity=".88"/>
+  <text x="642" y="324" fill="#0f2e4f" font-family="Arial, sans-serif" font-size="12" font-weight="800">3D MODEL</text>
+
+  <rect x="42" y="450" width="876" height="58" rx="18" fill="#ffffff" stroke="#d6e1ed"/>
+  <g font-family="Arial, sans-serif">
+    <text x="70" y="474" fill="#111827" font-size="15" font-weight="800">Project focus</text>
+    <text x="70" y="494" fill="#5b6b84" font-size="12">AR learning flow, Unity implementation, Maya fish model, visual training support</text>
+    <rect x="672" y="464" width="74" height="28" rx="14" fill="#e0f7fb"/>
+    <text x="691" y="483" fill="#0e7490" font-size="12" font-weight="800">Unity</text>
+    <rect x="758" y="464" width="58" height="28" rx="14" fill="#eaf2ff"/>
+    <text x="775" y="483" fill="#2563eb" font-size="12" font-weight="800">C#</text>
+    <rect x="828" y="464" width="66" height="28" rx="14" fill="#fef3c7"/>
+    <text x="847" y="483" fill="#92400e" font-size="12" font-weight="800">Maya</text>
+  </g>
 </svg>
