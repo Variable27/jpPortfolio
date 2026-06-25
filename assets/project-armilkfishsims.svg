@@ -1,36 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
-  <title id="title">ARMilkfishSIMS augmented reality training preview</title>
-  <desc id="desc">Augmented reality training system mockup for milkfish deboning with phone camera overlay, procedure steps, and performance indicators.</desc>
-  <rect width="960" height="540" rx="28" fill="#08131f"/>
-  <rect x="52" y="44" width="856" height="452" rx="28" fill="#0f1b2c" stroke="#22354c"/>
-  <text x="84" y="96" fill="#ffffff" font-family="Arial, sans-serif" font-size="29" font-weight="800">ARMilkfishSIMS</text>
-  <text x="84" y="123" fill="#9fb0c8" font-family="Arial, sans-serif" font-size="15">Augmented Reality Training System for Milkfish Deboning</text>
-  <rect x="98" y="154" width="298" height="310" rx="34" fill="#111827" stroke="#38e1c4" stroke-width="4"/>
-  <rect x="122" y="194" width="250" height="212" rx="18" fill="#d8eef5"/>
-  <path d="M154 315c52-52 130-74 190-10-58 68-136 70-190 10Z" fill="#8ac4d3" stroke="#0f5f70" stroke-width="5"/>
-  <circle cx="320" cy="302" r="8" fill="#0f5f70"/>
-  <path d="M190 336c44 16 86 14 128-8" stroke="#0f5f70" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M208 280l42 72M260 270l-18 86M304 284l-52 68" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
-  <rect x="146" y="424" width="202" height="18" rx="9" fill="#263244"/>
-  <rect x="182" y="170" width="130" height="10" rx="5" fill="#263244"/>
-  <g fill="none" stroke="#38e1c4" stroke-width="5" stroke-linecap="round">
-    <path d="M136 220v-22h22"/>
-    <path d="M358 220v-22h-22"/>
-    <path d="M136 380v22h22"/>
-    <path d="M358 380v22h-22"/>
-  </g>
-  <rect x="438" y="154" width="386" height="72" rx="18" fill="#162338" stroke="#2a3c52"/>
-  <text x="468" y="188" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="800">Training Module</text>
-  <text x="468" y="211" fill="#9fb0c8" font-family="Arial, sans-serif" font-size="14">Step-by-step deboning procedure with AR guidance</text>
-  <rect x="438" y="254" width="178" height="90" rx="18" fill="#172033" stroke="#2a3c52"/>
-  <text x="466" y="290" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Procedure</text>
-  <text x="466" y="322" fill="#38e1c4" font-family="Arial, sans-serif" font-size="28" font-weight="800">6 Steps</text>
-  <rect x="646" y="254" width="178" height="90" rx="18" fill="#172033" stroke="#2a3c52"/>
-  <text x="674" y="290" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">Mode</text>
-  <text x="674" y="322" fill="#6c8cff" font-family="Arial, sans-serif" font-size="28" font-weight="800">AR Sim</text>
-  <rect x="438" y="372" width="386" height="92" rx="18" fill="#172033" stroke="#2a3c52"/>
-  <text x="468" y="406" fill="#ffffff" font-family="Arial, sans-serif" font-size="19" font-weight="800">Learning Feedback</text>
-  <rect x="468" y="426" width="258" height="12" rx="6" fill="#263244"/>
-  <rect x="468" y="426" width="192" height="12" rx="6" fill="#38e1c4"/>
-  <rect x="468" y="448" width="204" height="10" rx="5" fill="#263244"/>
+  <title id="title">ARMilkfishSIMS preview</title>
+  <desc id="desc">Professional portfolio mockup using demo data only.</desc>
+  <rect width="960" height="540" rx="28" fill="#f3f6fb"/>
+  <rect x="0" y="0" width="960" height="92" rx="28" fill="#0b1f3a"/>
+  <rect x="0" y="68" width="960" height="24" fill="#0b1f3a"/>
+  <text x="42" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">ARMilkfishSIMS</text>
+  <text x="42" y="70" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="14">Augmented reality training system for milkfish deboning</text>
+  <text x="628" y="55" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="13">Source: Capstone demo scenario | Training sample data</text>
+  <rect x="796" y="24" width="116" height="34" rx="17" fill="#ffffff" opacity="0.12"/>
+  <text x="820" y="46" fill="#e8eef8" font-family="Arial, sans-serif" font-size="12" font-weight="700">DEMO DATA</text>
+  <g><rect x="42" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="42" y="120" width="160" height="10" rx="5" fill="#2563eb"/><text x="60" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Modules</text><text x="60" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">6</text><text x="60" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">training steps</text></g>
+  <g><rect x="222" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="222" y="120" width="160" height="10" rx="5" fill="#22c55e"/><text x="240" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Accuracy</text><text x="240" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">94%</text><text x="240" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">demo score</text></g>
+  <g><rect x="402" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="402" y="120" width="160" height="10" rx="5" fill="#14b8a6"/><text x="420" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Learners</text><text x="420" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">28</text><text x="420" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">sample class</text></g>
+  <g><rect x="582" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="582" y="120" width="160" height="10" rx="5" fill="#7c3aed"/><text x="600" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Session</text><text x="600" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">12 min</text><text x="600" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">mock average</text></g>
+  <g><rect x="762" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="762" y="120" width="160" height="10" rx="5" fill="#f59e0b"/><text x="780" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Mode</text><text x="780" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">AR</text><text x="780" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">guided practice</text></g>
+  <rect x="42" y="232" width="390" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">AR Training Flow</text>
+  <rect x="80" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#a5f3fc"/><text x="98" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Scan</text><path d="M160 314h34" stroke="#94a3b8" stroke-width="4"/><rect x="202" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#67e8f9"/><text x="218" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Guide</text><path d="M282 314h34" stroke="#94a3b8" stroke-width="4"/><rect x="324" y="292" width="74" height="44" rx="14" fill="#ecfeff" stroke="#22d3ee"/><text x="338" y="319" fill="#0e7490" font-family="Arial" font-size="13" font-weight="700">Check</text>
+  <rect x="462" y="232" width="456" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="490" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Learner Progress</text>
+  <rect x="500" y="328" width="20" height="38" rx="6" fill="#06b6d4"/><rect x="534" y="310" width="20" height="56" rx="6" fill="#06b6d4"/><rect x="568" y="292" width="20" height="74" rx="6" fill="#06b6d4"/><rect x="602" y="298" width="20" height="68" rx="6" fill="#06b6d4"/><rect x="636" y="284" width="20" height="82" rx="6" fill="#06b6d4"/><rect x="670" y="276" width="20" height="90" rx="6" fill="#06b6d4"/><rect x="736" y="292" width="118" height="48" rx="14" fill="#ecfeff"/><text x="762" y="313" fill="#0e7490" font-family="Arial" font-size="12" font-weight="700">Demo Lab</text><text x="756" y="333" fill="#155e75" font-family="Arial" font-size="18" font-weight="800">94%</text>
+  <rect x="42" y="408" width="876" height="86" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="442" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Key findings</text>
+  <circle cx="76" cy="466" r="4" fill="#06b6d4"/><text x="92" y="471" fill="#182235" font-family="Arial, sans-serif" font-size="13">The visual uses sample learner progress, not real class records.</text>
+  <circle cx="76" cy="486" r="4" fill="#06b6d4"/><text x="92" y="491" fill="#182235" font-family="Arial, sans-serif" font-size="13">Shows the project as a polished training system, not just a school output.</text>
 </svg>

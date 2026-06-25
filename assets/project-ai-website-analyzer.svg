@@ -1,35 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <title id="title">AI Website Analyzer preview</title>
-  <desc id="desc">AI website analyzer mockup with preview, quality scores, and recommendations.</desc>
-  <rect width="960" height="540" rx="28" fill="#101725"/>
-  <rect x="52" y="48" width="856" height="444" rx="24" fill="#151f31" stroke="#29364b"/>
-  <text x="84" y="94" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="800">AI Website Analyzer</text>
-  <text x="84" y="119" fill="#93a1bd" font-family="Arial, sans-serif" font-size="15">Conversion, SEO, accessibility, and content clarity review</text>
-  <rect x="84" y="154" width="384" height="274" rx="18" fill="#f8fafc"/>
-  <rect x="84" y="154" width="384" height="46" rx="18" fill="#e8eef7"/>
-  <circle cx="116" cy="177" r="7" fill="#ff5f57"/>
-  <circle cx="140" cy="177" r="7" fill="#febc2e"/>
-  <circle cx="164" cy="177" r="7" fill="#28c840"/>
-  <rect x="116" y="232" width="210" height="22" rx="11" fill="#111827"/>
-  <rect x="116" y="268" width="300" height="13" rx="7" fill="#cbd5e1"/>
-  <rect x="116" y="292" width="248" height="13" rx="7" fill="#e2e8f0"/>
-  <rect x="116" y="334" width="118" height="38" rx="10" fill="#38e1c4"/>
-  <rect x="254" y="334" width="118" height="38" rx="10" fill="#e8eef7"/>
-  <rect x="516" y="154" width="328" height="74" rx="16" fill="#19263a" stroke="#2e3c51"/>
-  <text x="544" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="800">AI Summary</text>
-  <text x="544" y="208" fill="#93a1bd" font-family="Arial, sans-serif" font-size="14">Homepage is clear, but CTA hierarchy can improve.</text>
-  <g>
-    <rect x="516" y="252" width="96" height="88" rx="16" fill="#0f766e"/>
-    <text x="546" y="294" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">88</text>
-    <text x="538" y="318" fill="#d8fff8" font-family="Arial, sans-serif" font-size="12">Content</text>
-    <rect x="632" y="252" width="96" height="88" rx="16" fill="#3749a6"/>
-    <text x="662" y="294" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">81</text>
-    <text x="655" y="318" fill="#dfe5ff" font-family="Arial, sans-serif" font-size="12">SEO</text>
-    <rect x="748" y="252" width="96" height="88" rx="16" fill="#7c3aed"/>
-    <text x="778" y="294" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">76</text>
-    <text x="768" y="318" fill="#f1e8ff" font-family="Arial, sans-serif" font-size="12">UX</text>
-  </g>
-  <rect x="516" y="364" width="328" height="64" rx="16" fill="#19263a" stroke="#2e3c51"/>
-  <path d="M544 397h244" stroke="#38e1c4" stroke-width="8" stroke-linecap="round"/>
-  <path d="M544 416h180" stroke="#2e3c51" stroke-width="8" stroke-linecap="round"/>
+  <desc id="desc">Professional portfolio mockup using demo data only.</desc>
+  <rect width="960" height="540" rx="28" fill="#f3f6fb"/>
+  <rect x="0" y="0" width="960" height="92" rx="28" fill="#0b1f3a"/>
+  <rect x="0" y="68" width="960" height="24" fill="#0b1f3a"/>
+  <text x="42" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">AI Website Analyzer</text>
+  <text x="42" y="70" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="14">UX, conversion, accessibility, and SEO recommendations</text>
+  <text x="628" y="55" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="13">Source: DemoCo landing page | Sample review</text>
+  <rect x="796" y="24" width="116" height="34" rx="17" fill="#ffffff" opacity="0.12"/>
+  <text x="820" y="46" fill="#e8eef8" font-family="Arial, sans-serif" font-size="12" font-weight="700">DEMO DATA</text>
+  <g><rect x="42" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="42" y="120" width="160" height="10" rx="5" fill="#2563eb"/><text x="60" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">UX Score</text><text x="60" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">88/100</text><text x="60" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">mock rating</text></g>
+  <g><rect x="222" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="222" y="120" width="160" height="10" rx="5" fill="#22c55e"/><text x="240" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Clarity</text><text x="240" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">92%</text><text x="240" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">sample copy</text></g>
+  <g><rect x="402" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="402" y="120" width="160" height="10" rx="5" fill="#14b8a6"/><text x="420" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Trust</text><text x="420" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">7.8/10</text><text x="420" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">demo signal</text></g>
+  <g><rect x="582" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="582" y="120" width="160" height="10" rx="5" fill="#7c3aed"/><text x="600" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">A11y</text><text x="600" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">94%</text><text x="600" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">basic checks</text></g>
+  <g><rect x="762" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="762" y="120" width="160" height="10" rx="5" fill="#f59e0b"/><text x="780" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Actions</text><text x="780" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">11</text><text x="780" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">next steps</text></g>
+  <rect x="42" y="232" width="390" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Conversion Review</text>
+  <path d="M80 342 L128 316 L176 328 L224 294 L272 306 L320 276 L376 286" fill="none" stroke="#7c3aed" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="342" r="4.5" fill="#7c3aed"/><circle cx="128" cy="316" r="4.5" fill="#7c3aed"/><circle cx="176" cy="328" r="4.5" fill="#7c3aed"/><circle cx="224" cy="294" r="4.5" fill="#7c3aed"/><circle cx="272" cy="306" r="4.5" fill="#7c3aed"/><circle cx="320" cy="276" r="4.5" fill="#7c3aed"/><circle cx="376" cy="286" r="4.5" fill="#7c3aed"/><rect x="74" y="278" width="312" height="74" rx="14" fill="#f5f3ff" opacity="0.55"/>
+  <rect x="462" y="232" width="456" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="490" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">AI Recommendations</text>
+  <rect x="490" y="292" width="358" height="13" rx="7" fill="#ede9fe"/><rect x="490" y="320" width="286" height="13" rx="7" fill="#ede9fe"/><rect x="490" y="348" width="330" height="13" rx="7" fill="#ede9fe"/><text x="490" y="285" fill="#6d5d89" font-family="Arial" font-size="12">Hero copy, CTA placement, testimonials, page speed</text>
+  <rect x="42" y="408" width="876" height="86" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="442" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Key findings</text>
+  <circle cx="76" cy="466" r="4" fill="#7c3aed"/><text x="92" y="471" fill="#182235" font-family="Arial, sans-serif" font-size="13">Analyzer output is written in plain language for non-technical users.</text>
+  <circle cx="76" cy="486" r="4" fill="#7c3aed"/><text x="92" y="491" fill="#182235" font-family="Arial, sans-serif" font-size="13">All ratings are dummy values created for the portfolio image.</text>
 </svg>
