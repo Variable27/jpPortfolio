@@ -96,10 +96,10 @@ a { color: inherit; text-decoration: none; }
 .brand-mark {
   display: grid; place-items: center;
   width: 38px; height: 38px; border-radius: 10px;
-  background: url("assets/john-paul-bantillo.jpg") center / cover no-repeat;
+  background: url("assets/jp-bantillo-logo.png") center / cover no-repeat;
   color: transparent; font-size: 0;
   border: 1px solid rgba(255, 255, 255, 0.28);
-  box-shadow: 0 6px 18px -6px rgba(56, 225, 196, 0.6);
+  box-shadow: 0 6px 18px -6px rgba(0, 143, 255, 0.7);
 }
 .brand-name { font-size: 18px; letter-spacing: -0.01em; }
 
@@ -140,7 +140,7 @@ a { color: inherit; text-decoration: none; }
 .hero-content, .hero-card { min-width: 0; }
 
 .eyebrow {
-  display: inline-flex; align-items: center; gap: 9px;
+  display: inline-flex; align-items: center; flex-wrap: wrap; gap: 9px;
   font-family: var(--font-mono); font-size: 13px; color: var(--accent);
   padding: 7px 14px; border: 1px solid var(--border-2); border-radius: 999px;
   background: rgba(56, 225, 196, 0.06); margin-bottom: 22px;
@@ -167,7 +167,29 @@ a.meta-item:hover { color: var(--accent); }
 .meta-ico { opacity: .9; }
 
 /* Code window */
-.hero-card { perspective: 1000px; }
+.hero-card { width: 100%; perspective: 1000px; }
+.logo-showcase {
+  display: block;
+  width: min(100%, 460px);
+  margin-left: auto;
+  background: #020509;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow), 0 0 44px -24px rgba(0, 157, 255, 0.95);
+  overflow: hidden;
+  transform: rotateY(-4deg) rotateX(2deg);
+  transition: transform .4s ease, border-color .3s ease, box-shadow .3s ease;
+}
+.logo-showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero-card:hover .logo-showcase {
+  transform: rotateY(0) rotateX(0);
+  border-color: rgba(0, 157, 255, 0.32);
+  box-shadow: var(--shadow), 0 0 58px -24px rgba(0, 157, 255, 1);
+}
 .code-window {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   box-shadow: var(--shadow); overflow: hidden; transform: rotateY(-4deg) rotateX(2deg);
@@ -468,8 +490,8 @@ a.contact-link:hover { transform: translateY(-3px); border-color: var(--border-2
   .nav-links a { padding: 13px 14px; }
   .nav-toggle { display: flex; }
   .hero-card { max-width: 100%; }
-  .code-window { transform: none; }
-  .hero-card:hover .code-window { transform: none; }
+  .code-window, .logo-showcase { transform: none; }
+  .hero-card:hover .code-window, .hero-card:hover .logo-showcase { transform: none; }
   .projects-grid, .awards-grid, .contact-links { grid-template-columns: 1fr; }
   .feature-grid, .mini-grid { grid-template-columns: 1fr; }
   .page-hero { padding: 122px 0 56px; }
@@ -481,6 +503,13 @@ a.contact-link:hover { transform: translateY(-3px); border-color: var(--border-2
 }
 @media (max-width: 460px) {
   .skills-grid, .stats { grid-template-columns: 1fr; }
+  .hero-inner { display: block; }
+  .hero-content { margin-bottom: 40px; }
+  .eyebrow { display: flex; width: 100%; font-size: 11.5px; overflow-wrap: anywhere; }
+  .hero-title { font-size: 38px; letter-spacing: -0.02em; }
+  .hero-role { font-size: 16px; }
+  .hero-desc { max-width: 100%; overflow-wrap: break-word; }
+  .logo-showcase { width: 100%; margin-left: 0; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; }
 }
