@@ -28,16 +28,15 @@ function Loader() {
   return visible ? <div className="loader" aria-label="Initializing portfolio"><span className="loader-mark">JP</span><span>INITIALIZING PORTFOLIO</span><i /></div> : null
 }
 
-function Header() {
+function pageHref(id: string) { return id === 'home' ? '/' : `/${id}/` }
+
+function Header({ active }: { active: string }) {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const [active, setActive] = useState('home')
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 18)
     onScroll(); window.addEventListener('scroll', onScroll, { passive: true })
-    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => entry.isIntersecting && setActive(entry.target.id)), { rootMargin: '-35% 0px -55% 0px' })
-    navigation.forEach(([, id]) => { const element = document.getElementById(id); if (element) observer.observe(element) })
-    return () => { window.removeEventListener('scroll', onScroll); observer.disconnect() }
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
   useEffect(() => {
     document.body.classList.toggle('menu-open', open)
@@ -46,9 +45,9 @@ function Header() {
     return () => { document.body.classList.remove('menu-open'); window.removeEventListener('keydown', close) }
   }, [open])
   return <header className={`header ${scrolled ? 'is-scrolled' : ''}`}>
-    <div className="shell nav-shell"><a className="logo" href="#home" aria-label="John Paul Bantillo home">JP<span>.</span></a>
+    <div className="shell nav-shell"><a className="logo" href="/" aria-label="John Paul Bantillo home">JP<span>.</span></a>
       <nav className={`nav-links ${open ? 'is-open' : ''}`} aria-label="Main navigation">
-        {navigation.map(([label, id]) => <a key={id} href={`#${id}`} aria-current={active === id ? 'page' : undefined} onClick={() => setOpen(false)}>{label}</a>)}
+        {navigation.map(([label, id]) => <a key={id} href={pageHref(id)} aria-current={active === id ? 'page' : undefined} onClick={() => setOpen(false)}>{label}</a>)}
         <a className="resume-link" href="mailto:jpbantillo27@gmail.com?subject=Resume%20request">Request résumé <ArrowUpRight size={15} /></a>
       </nav>
       <button className="menu-button" aria-expanded={open} aria-controls="site-nav" onClick={() => setOpen(!open)} aria-label={open ? 'Close menu' : 'Open menu'}>{open ? <X /> : <Menu />}</button>
@@ -67,8 +66,8 @@ function Hero() {
   return <section id="home" className="hero"><div className="hero-glow" /><div className="shell hero-shell"><div className="hero-copy reveal">
     <Eyebrow>Available for remote opportunities</Eyebrow><h1>Hi, I’m <em>John Paul</em> Bantillo.</h1><p className="role-line"><CodeXml size={17} /> {roles[role]}</p>
     <p className="hero-summary">I build modern websites, SEO systems, and AI-assisted digital experiences—combining development, WordPress, automation, and thoughtful technical support.</p>
-    <div className="hero-actions"><MagneticLink href="#projects">View my work</MagneticLink><MagneticLink href="#contact" secondary>Contact me</MagneticLink></div>
-  </div><Suspense fallback={<div className="hero-visual-fallback">JP</div>}><HeroCore /></Suspense><a className="scroll-cue" href="#about">Scroll to explore <ArrowDown size={15} /></a></div></section>
+    <div className="hero-actions"><MagneticLink href="/projects/">View my work</MagneticLink><MagneticLink href="/contact/" secondary>Contact me</MagneticLink></div>
+  </div><Suspense fallback={<div className="hero-visual-fallback">JP</div>}><HeroCore /></Suspense><a className="scroll-cue" href="/about/">Scroll to explore <ArrowDown size={15} /></a></div></section>
 }
 
 function About() { return <section id="about" className="section about"><div className="shell about-grid"><div><SectionTitle number="01" eyebrow="About" title="Building useful things, with care for the people using them." /><div className="about-copy reveal"><p>I’m John Paul Ferrer Bantillo, a web and mobile application development graduate from Northern Iloilo State University. I work across website development, WordPress, technical SEO, automation, and AI-assisted workflows.</p><p>I enjoy turning ideas and unorganized content into functional, responsive, easy-to-manage digital experiences. My Cum Laude background reflects the same mindset I bring to each project: stay curious, solve the practical problem, and keep improving.</p></div><div className="facts reveal">{[['Based in', personal.location], ['Availability', 'Open to remote work'], ['Degree', 'BS Information Technology'], ['Recognition', 'Cum Laude']].map(([label, value]) => <div key={label}><span>{label}</span><strong>{value}</strong></div>)}</div></div><div className="portrait-wrap reveal"><div className="portrait-frame"><img src="/assets/john-paul-bantillo.webp" alt="John Paul Bantillo" /><div className="portrait-orbit" /></div><div className="info-float"><span>PRIMARY FOCUS</span><strong>Web · SEO · AI</strong><small>Development & support</small></div></div></div></section> }
@@ -90,8 +89,12 @@ function AssistantPanel() { const [open, setOpen] = useState(false); const [answ
 
 function Contact() { const [copied, setCopied] = useState(false); const [submitted, setSubmitted] = useState(false); const [error, setError] = useState(''); function copyEmail() { navigator.clipboard?.writeText(personal.email).then(() => { setCopied(true); window.setTimeout(() => setCopied(false), 1800) }) } function submit(event: React.FormEvent<HTMLFormElement>) { event.preventDefault(); const data = new FormData(event.currentTarget); const email = String(data.get('email') ?? ''); if (!/^\S+@\S+\.\S+$/.test(email)) { setError('Enter a valid email address.'); return } setError(''); window.location.href = `mailto:${personal.email}?subject=${encodeURIComponent(`Portfolio enquiry from ${data.get('name')}`)}&body=${encodeURIComponent(String(data.get('message')))}`; setSubmitted(true) } return <section id="contact" className="section contact"><div className="shell contact-grid"><div><SectionTitle number="06" eyebrow="Contact" title="Let’s build something useful." text="I’m open to remote opportunities, freelance projects, website development work, SEO support, and technical collaborations." /><div className="contact-details reveal"><a href={`mailto:${personal.email}`}><Mail /> {personal.email}</a><button onClick={copyEmail}>{copied ? <Check /> : <Clipboard />} {copied ? 'Email copied' : 'Copy email'}</button><a href={personal.github} target="_blank" rel="noopener noreferrer"><Github /> GitHub</a><a href={personal.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin /> LinkedIn</a><span><span className="status-dot" /> Available for remote work</span></div></div><form className="contact-form reveal" onSubmit={submit} noValidate><label>Name<input name="name" required autoComplete="name" /></label><label>Email<input name="email" required type="email" autoComplete="email" aria-describedby={error ? 'email-error' : undefined} /></label><label>Company <small>(optional)</small><input name="company" autoComplete="organization" /></label><label>Project type<select name="projectType"><option>Web development</option><option>WordPress</option><option>SEO support</option><option>Automation / AI workflow</option><option>Technical support</option><option>Opportunity / other</option></select></label><label>Message<textarea name="message" required rows={5} /></label>{error && <p id="email-error" className="form-error">{error}</p>}{submitted && <p className="form-success">Your mail app should open with your message ready to send.</p>}<button className="button" type="submit">Start a conversation <Send size={16} /></button><p className="form-note">This form opens your email app—no message is silently discarded.</p></form></div></section> }
 
-function Footer() { return <footer className="footer"><div className="shell footer-inner"><a className="logo" href="#home">JP<span>.</span></a><p>Designed and developed by John Paul Bantillo © {new Date().getFullYear()}</p><a className="back-top" href="#home">Back to top <ArrowUpRight size={15} /></a></div></footer> }
+function Footer() { return <footer className="footer"><div className="shell footer-inner"><a className="logo" href="/">JP<span>.</span></a><p>Designed and developed by John Paul Bantillo © {new Date().getFullYear()}</p><a className="back-top" href="/">Home <ArrowUpRight size={15} /></a></div></footer> }
 
 function RevealSetup() { const reduced = useReducedMotion(); useEffect(() => { if (reduced) return; const context = gsap.context(() => { gsap.utils.toArray<HTMLElement>('.reveal').forEach((element) => gsap.fromTo(element, { autoAlpha: 0, y: 22 }, { autoAlpha: 1, y: 0, duration: 0.7, ease: 'power3.out', scrollTrigger: { trigger: element, start: 'top 86%', once: true } })) }); return () => context.revert() }, [reduced]); return null }
 
-export default function App() { return <><Loader /><RevealSetup /><a className="skip-link" href="#main">Skip to content</a><div className="site-noise" aria-hidden="true" /><Header /><main id="main"><Hero /><About /><Services /><Skills /><Experience /><Projects /><Contact /></main><Footer /><AssistantPanel /></> }
+function HomeOverview() { return <section className="section home-overview"><div className="shell"><SectionTitle number="Explore" eyebrow="Portfolio" title="Choose a path through my work." text="Explore my background, services, skills, journey, selected projects, or start a conversation." /><div className="service-grid">{navigation.slice(1).map(([label, id], index) => <a className="service-card reveal page-card" href={pageHref(id)} key={id}><div className="card-top"><span>{String(index + 1).padStart(2, '0')}</span><ArrowUpRight size={22} /></div><h3>{label}</h3><p>Open the {label.toLowerCase()} page.</p></a>)}</div></div></section> }
+
+function currentPage() { const part = window.location.pathname.split('/').filter(Boolean).at(-1); return navigation.some(([, id]) => id === part) ? part! : 'home' }
+
+export default function App() { const page = currentPage(); const content = { home: <><Hero /><HomeOverview /></>, about: <About />, services: <Services />, skills: <Skills />, experience: <Experience />, projects: <Projects />, contact: <Contact /> }[page] ?? <Hero />; return <><Loader /><RevealSetup /><a className="skip-link" href="#main">Skip to content</a><div className="site-noise" aria-hidden="true" /><Header active={page} /><main id="main">{content}</main><Footer /><AssistantPanel /></> }
