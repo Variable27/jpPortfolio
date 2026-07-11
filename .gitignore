@@ -7,6 +7,8 @@ Thumbs.db
 
 # Node (only if you add a build step later)
 node_modules/
+dist/
+.npm-cache/
 
 # Temp image tooling
 .imgtmp/

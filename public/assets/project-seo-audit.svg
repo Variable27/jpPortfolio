@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">SEO Audit Tool preview</title>
+  <desc id="desc">Professional portfolio mockup using demo data only.</desc>
+  <rect width="960" height="540" rx="28" fill="#f3f6fb"/>
+  <rect x="0" y="0" width="960" height="92" rx="28" fill="#0b1f3a"/>
+  <rect x="0" y="68" width="960" height="24" fill="#0b1f3a"/>
+  <text x="42" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="800">SEO Audit Tool</text>
+  <text x="42" y="70" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="14">Technical SEO checks, metadata review, and fix prioritization</text>
+  <text x="628" y="55" fill="#c7d4e8" font-family="Arial, sans-serif" font-size="13">Source: sample-site.test | Demo audit only</text>
+  <rect x="796" y="24" width="116" height="34" rx="17" fill="#ffffff" opacity="0.12"/>
+  <text x="820" y="46" fill="#e8eef8" font-family="Arial, sans-serif" font-size="12" font-weight="700">DEMO DATA</text>
+  <g><rect x="42" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="42" y="120" width="160" height="10" rx="5" fill="#2563eb"/><text x="60" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">SEO Score</text><text x="60" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">91/100</text><text x="60" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">sample page</text></g>
+  <g><rect x="222" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="222" y="120" width="160" height="10" rx="5" fill="#22c55e"/><text x="240" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Issues</text><text x="240" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">14</text><text x="240" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">mock findings</text></g>
+  <g><rect x="402" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="402" y="120" width="160" height="10" rx="5" fill="#14b8a6"/><text x="420" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Speed</text><text x="420" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">1.8s</text><text x="420" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">demo load</text></g>
+  <g><rect x="582" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="582" y="120" width="160" height="10" rx="5" fill="#7c3aed"/><text x="600" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Alt Text</text><text x="600" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">96%</text><text x="600" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">sample images</text></g>
+  <g><rect x="762" y="120" width="160" height="82" rx="16" fill="#ffffff" stroke="#dbe4ef"/><rect x="762" y="120" width="160" height="10" rx="5" fill="#f59e0b"/><text x="780" y="154" fill="#5b6b84" font-family="Arial, sans-serif" font-size="14" font-weight="700">Schema</text><text x="780" y="185" fill="#111827" font-family="Arial, sans-serif" font-size="27" font-weight="800">Valid</text><text x="780" y="200" fill="#60708a" font-family="Arial, sans-serif" font-size="12">test markup</text></g>
+  <rect x="42" y="232" width="390" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Audit Score</text>
+  <circle cx="178" cy="310" r="52" fill="#eff6ff" stroke="#dbe4ef" stroke-width="14"/><path d="M178 258a52 52 0 1 1-42 83" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/><text x="151" y="319" fill="#111827" font-family="Arial" font-size="28" font-weight="800">91</text><text x="256" y="301" fill="#5b6b84" font-family="Arial" font-size="13">Title tags: passed</text><text x="256" y="325" fill="#5b6b84" font-family="Arial" font-size="13">Meta copy: good</text><text x="256" y="349" fill="#5b6b84" font-family="Arial" font-size="13">Image alt: review</text>
+  <rect x="462" y="232" width="456" height="150" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="490" y="268" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Priority Fixes</text>
+  <rect x="490" y="294" width="340" height="14" rx="7" fill="#e8eef6"/><rect x="490" y="322" width="286" height="14" rx="7" fill="#e8eef6"/><rect x="490" y="350" width="220" height="14" rx="7" fill="#e8eef6"/><rect x="842" y="289" width="44" height="24" rx="12" fill="#fee2e2"/><text x="856" y="306" fill="#b91c1c" font-family="Arial" font-size="11" font-weight="700">3</text>
+  <rect x="42" y="408" width="876" height="86" rx="18" fill="#ffffff" stroke="#dbe4ef"/>
+  <text x="70" y="442" fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="800">Key findings</text>
+  <circle cx="76" cy="466" r="4" fill="#14b8a6"/><text x="92" y="471" fill="#182235" font-family="Arial, sans-serif" font-size="13">Demo audit highlights missing alt text and heading cleanup.</text>
+  <circle cx="76" cy="486" r="4" fill="#14b8a6"/><text x="92" y="491" fill="#182235" font-family="Arial, sans-serif" font-size="13">All scores and website names are sample data.</text>
+</svg>
