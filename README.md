@@ -12,6 +12,7 @@ and Virtual Assistant.
 - **Rich-snippet SEO layer:** JSON-LD `@graph` (`Person` + `ProfilePage` + `WebSite` + `BreadcrumbList` + `FAQPage`), full meta tags, geo/local tags, `hreflang`, Open Graph (`profile`) + Twitter cards, `robots.txt`, image `sitemap.xml`
 - **International-client focused:** Services section, "available worldwide / remote" messaging, FAQ section eligible for Google FAQ rich results
 - **Performance-tuned:** non-blocking Google Fonts load, preconnect/preload, deferred work — better Core Web Vitals
+- **AMP home page:** a valid, JavaScript-free AMP alternative at `/amp.html`, connected from the canonical home page for AMP discovery
 - Zero build step — plain HTML, CSS, and vanilla JavaScript
 
 ## ⚠️ Finish the rich snippet — add your profile links
